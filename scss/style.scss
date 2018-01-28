@@ -1,0 +1,56 @@
+$primary: #000;
+$primary-overlay: rgba(0,0,0,0.85);
+
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background: #fff;
+
+  .navbar-brand {
+    font-size: 1.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    word-spacing: 0.25em;
+  }
+
+  .nav-item {
+    font-size: 1.25rem;
+    padding-right: 20px;
+  }
+}
+
+#showcase {
+  position: relative;
+  top: -11px;
+  background: url('../img/pexels-photo.jpg');
+  min-height: 370px;
+
+  img {
+    height: 320px;
+  }
+
+  .primary-overlay {
+    background: $primary-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#accordion {
+  ul {
+    list-style-type: none;
+  }
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
