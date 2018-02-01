@@ -26,12 +26,10 @@ body {
 #showcase {
   position: relative;
   top: -11px;
-  background: url('../img/pexels-photo.jpg');
-  min-height: 370px;
-
-  img {
-    height: 320px;
-  }
+  background: url('../img/laptop.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 330px;
 
   .primary-overlay {
     background: $primary-overlay;
@@ -51,42 +49,24 @@ body {
 
 .info-header {
   width: 50%;
-  margin: auto;
+  margin: 0 auto;
   border-bottom: 1px #ddd solid;
 }
 
 @media screen and (max-width: 770px) {
-  img {
-    height: 250px !important;
-  }
-
   #showcase {
-    top: -18px !important;
+    top: -16px !important;
   }
-
   #background {
-    margin-top: 40px !important;
+    margin-top: 60px !important;
     padding-top: 40px !important;
-
   }
 }
 
-
-
-@media screen and (max-width: 380px) {
-  img {
-    height: 150px !important;
-    margin-bottom: 50px !important;
-  }
+@media screen and (max-width: 570px) {
 
   #showcase {
     top: -18px !important;
-  }
-
-  #background {
-    .info-header {
-      margin-top: 100px !important;
-    }
   }
 
   .navbar-brand {
@@ -102,6 +82,5 @@ body {
   #background {
     margin-top: 0 !important;
     padding-top: 0 !important;
-
   }
 }
