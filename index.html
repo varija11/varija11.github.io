@@ -81,15 +81,41 @@
               </div>
             </div>
 
+            <div id="accordion" role="tablist">
+              <div class="card">
+                <div class="card-header" id="heading1">
+                  <h5 class="mb-0">
+                    <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                      <i class="fa fa-arrow-circle-down"></i> Experience
+                    </div>
+                  </h5>
+                </div>
+                <div class="collapse" id="collapse2">
+                  <div class="card-body">
+                    <div class="card">
+                      <div class="card-header">
+                        <p>Software Engineer II, Scientific Research Corporation <span class="text-muted">May 2018 - Present</span></p>
+                      </div>
+                      <div class="card-body">
+                        <ul class="text-left">
+                          <li>Working on an Agile (Scrum)team on a complex LAMP stack application built for Navy SPAWAR customer: new features, bug fixes, putting together a toolset to analyze codebase for which no formal testing suite has been in place, writing testing documentation</li>
+                          <li>Assisted with VITA 49.2 migration of a legacy  Navy cryptologic system – helped with analyzing and compiling poorly documented C++ source code for the migration</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <div class="card">
               <div class="card-header" id="heading2">
                 <h5 class="mb-0">
-                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
                     <i class="fa fa-arrow-circle-down"></i> Education & Certifications
                   </div>
                 </h5>
               </div>
-              <div class="collapse" id="collapse2">
+              <div class="collapse" id="collapse3">
                 <div class="card-body">
                   <div class="container">
                     <div class="card-deck">
@@ -133,7 +159,7 @@
                       </div>
                      </div>
 
-                     <div class="card-deck">
+                     <div class="card-deck mt-2">
                       <div class="card">
                         <div class="card-header">
                           <h6>Udemy</h6>
@@ -141,7 +167,7 @@
                         <div class="card-body">
                           <p><a href="img/bootstrap_certificate.jpg" data-toggle="lightbox">Bootstrap 4 from Scratch with 5 Projects</a></p>
                           <p><a href="img/angular_certificate.jpg" data-toggle="lightbox">Angular Front to Back</a></p>
-                          <p><a data-toggle="lightbox">Object Oriented PHP & MVC</a></p>
+                          <p><a href="img/php_mvc_certificate.jpg" data-toggle="lightbox">Object Oriented PHP & MVC</a></p>
                         </div>
                       </div>
                       <div class="card">
@@ -149,15 +175,15 @@
                           <h6>Pluralsight</h6>
                         </div>
                         <div class="card-body">
-                           <p>PHP Fundamentals</p>
-                           <p>PHP Web Application Security</p>
-                           <p>MySQL Fundamentals, Parts 1 & 2</p>
-                           <p>MySQL Backup and Recovery Fundamentals</p>
-                           <p>Installing and Configuring Apache Web Server</p>
-                           <p>Scrum Fundamentals</p>
-                           <p>DevOps: The Big Picture</p>
-                           <p>AWS Developer: The Big Picture</p>
-                           <p>Networking Concepts and Protocols</p>
+                          <ul class="text-left">
+                            <li>Courses on PHP Fundamentals and Web Application Security</li>
+                            <li>Courses on MySQL Fundamentals</li>
+                            <li>Installing and Configuring Apache Web Server</li>
+                            <li>Scrum Fundamentals</li>
+                            <li>DevOps: The Big Picture</li>
+                            <li>AWS Developer: The Big Picture</li>
+                            <li>Networking Concepts and Protocols</li>
+                          </ul>
                         </div>
                       </div>
 
@@ -170,26 +196,23 @@
             <div class="card">
               <div class="card-header" id="heading3">
                 <h5 class="mb-0">
-                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                  <div href="#collapse4" data-toggle="collapse" data-parent="#accordion">
                     <i class="fa fa-arrow-circle-down"></i> Skills
                   </div>
                 </h5>
               </div>
-              <div class="collapse" id="collapse3">
+              <div class="collapse" id="collapse4">
                 <div class="card-body">
                   <ul class="list-group">
-                    <li class="list-group-item"><h6>Strong foundation in HTML5 and CSS3 (with Sass)</h6></li>
-                      <li class="list-group-item"><h6>Responsive design</h6></li>
-                    <li class="list-group-item"><h6>Skilled with JavaScript</h6>
-                      <ul>
-                        <li class="mx-auto">Comfortable working with JQuery and Knockout.js</li>
-                        <li class="mx-auto">Working to learn more frameworks such as Backbone.js, Angular.js, and Ember.js</li>
-                      </ul>
+                    <li class="list-group-item">
+                      <strong>Languages/Frameworks</strong>: JavaScript (comfortable with jQuery, Angular, Knockout.js), PHP, HTML5, CSS3 (with Sass), Twitter Bootstrap, SQL, Moderate proficiency in Java and C++, MATLAB
                     </li>
-                    <li class="list-group-item"><h6>Twitter Bootstrap</h6></li>
-                    <li class="list-group-item"><h6>Version control using Git</h6></li>
-                    <li class="list-group-item"><h6>Testing code using Jasmine</h6></li>
-                    <li class="list-group-item"><h6>Java</h6></li>
+                    <li class="list-group-item">
+                        <strong>Tools/Methods</strong>: Git, Atlassian JIRA and Confluence, Agile/Scrum, Jasmine (Behavior-driven JavaScript testing framework), Gulp, phpMyAdmin, Firebase, some AWS
+                    </li>
+                    <li class="list-group-item">
+                        <strong>OS</strong>: Linux, Windows
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -213,6 +236,40 @@
               Here are some applications I've created.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card-deck mb-3">
+            <div class="card">
+                <div class="card-header">
+                  <h6>ClassMaster</h6>
+                </div>
+                <div class="card-body">
+                  <p class="lead">Demo LAMP stack application where users can create an account and share class notes. Full CRUD capability, written with a custom PHP MVC framework and deployed using Amazon Web Services.</p>
+                  <h6>See it <a href="http://classmaster.us-east-2.elasticbeanstalk.com/">here</a></h6>
+                </div>
+              </div>
+
+              <div class="card">
+                  <div class="card-header">
+                    <h6>MediaManager</h6>
+                  </div>
+                  <div class="card-body">
+                    <p class="lead">Demo Angular application where users can create an account and then create libraries of their books, games, and movies to keep track of personally owned media. Full CRUD capability with Firebase's Cloud Firestore, a NoSQL cloud database. Deployed using Firebase.</p>
+                    <h6>See it <a href="https://mediamanager-22f1b.firebaseapp.com/">here</a></h6>
+                  </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <h6>Georgia Tech Interactive Map</h6>
+                </div>
+                <div class="card-body">
+                  <p class="lead">An application that displays the buildings on Georgia Tech's campus using Google Maps API and the Georgia Tech Buildings API. Makes use of Knockout.js to make separation of concerns and a dynamic UI easy and neat!</p>
+                  <h6>See it <a href="https://varija11.github.io/GeorgiaTechMap">here</a></h6>
+                </div>
+              </div>
         </div>
       </div>
 
@@ -245,15 +302,7 @@
               <h6>See it <a href="https://varija11.github.io/Classic-Arcade-Frogger-Game">here</a></h6>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header">
-              <h6>Georgia Tech Interactive Map</h6>
-            </div>
-            <div class="card-body">
-              <p class="lead">An application that displays the buildings on Georgia Tech's campus using Google Maps API and the Georgia Tech Buildings API. Makes use of Knockout.js to make separation of concerns and a dynamic UI easy and neat!</p>
-              <h6>See it <a href="https://varija11.github.io/GeorgiaTechMap">here</a></h6>
-            </div>
-          </div>
+     
         </div>
       </div>
 
